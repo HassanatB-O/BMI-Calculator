@@ -1,0 +1,54 @@
+body
+{
+    background-color: yellowgreen;
+    text-align: center;
+}
+#inputs
+{
+    margin-top: 13%;
+}
+button
+{
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+h1
+{
+    text-align: left;
+    background-color: white;
+}
+label
+{
+    color: white;
+    font-size: 20px;
+}
+input
+{
+    border: 2px solid grey;
+    padding: 5px;
+}
+#result
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+span[id=category]
+{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 480px)
+{
+    #inputs
+    {
+        margin-top: 130px;
+    }
+    h1
+    {
+        text-align: center;
+    }
+}
